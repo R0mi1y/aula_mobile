@@ -13,6 +13,10 @@
     app:layout_constraintStart_toStartOf="parent"
     tools:layout_editor_absoluteY="1dp">
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="72dp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="408dp"
@@ -38,7 +42,7 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="455dp"
+        android:layout_width="341dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
@@ -47,7 +51,7 @@
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="455dp"
+        android:layout_width="343dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
